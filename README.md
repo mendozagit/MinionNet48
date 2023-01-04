@@ -1,6 +1,6 @@
 # Minion
 
-Minion is a modern, testable background job scheduler for .NET applications.
+Minion is a modern, testable background job scheduler for .NET applications (.NET STANDARD 2.0  AND .NET FRAMEWORK 4.8)
 Minion will handle running your background job in a reliable way with SQL Server backed storage.
 
 Example of scenarios when you can use Minion:
@@ -18,7 +18,10 @@ Example of scenarios when you can use Minion:
 Minion is available as a NuGet package. You can install it using the NuGet Package Console windows in Visual Studio:
 
 ```
-PM> Install-Package Froda.Minion
+
+NuGet\Install-Package Minion.Core.Net48 -Version 1.0.0
+NuGet\Install-Package Minion.Sql.Net48 -Version 1.0.0
+NuGet\Install-Package Minion.InMemory.Net48 -Version 1.0.0
 ```
 
 ## Usage
