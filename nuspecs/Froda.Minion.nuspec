@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>Froda.Minion</id>
+		<version>#{version}#</version>
+		<authors>Pelle Tyrefors Branden</authors>
+		<owners>Monetise Capital AB</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Minion, background job system for .NET applications.</description>
+		<copyright>Copyright © 2018-2019 Monetise Capital AB</copyright>
+		<tags>Minion Long-Running Background Fire-And-Forget Delayed Recurring Tasks Jobs Scheduler</tags>
+		<projectUrl>https://github.com/FrodaSE/Minion</projectUrl>
+		<dependencies>
+			<group targetFramework="net451">
+				<dependency id="Froda.Minion.Core" version="#{version}#" />
+				<dependency id="Froda.Minion.InMemory" version="#{version}#" />
+				<dependency id="Froda.Minion.Sql" version="#{version}#" />
+			</group>
+			<group targetFramework="netstandard1.6">
+				<dependency id="Froda.Minion.Core" version="#{version}#" />
+				<dependency id="Froda.Minion.InMemory" version="#{version}#" />
+				<dependency id="Froda.Minion.Sql" version="#{version}#" />
+				<dependency id="NETStandard.Library" version="1.6.1" />
+			</group>
+		</dependencies>
+	</metadata>
+</package>
