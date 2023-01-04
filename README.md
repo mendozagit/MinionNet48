@@ -1,7 +1,13 @@
+# All Credits for 
+https://github.com/FrodaSE/Minion.git
+
+This Repo is a clone of https://github.com/FrodaSE/Minion.git I just add support for .net 4.8 and net standard 2.0 target frameworks.
+
 # Minion
 
 Minion is a modern, testable background job scheduler for .NET applications (.NET STANDARD 2.0  AND .NET FRAMEWORK 4.8)
 Minion will handle running your background job in a reliable way with SQL Server backed storage.
+
 
 Example of scenarios when you can use Minion:
 
